@@ -22,6 +22,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CCB7ECC72453D71300007BCE /* XModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB7ECC62453D71300007BCE /* XModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +56,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74166B4FF53F9183B92D2330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		74166B4FF53F9183B92D2330 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E244D907542C12BB2329A63E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E4422AF95F845A46E5339137 /* XModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XModel.podspec; path = ../XModel.podspec; sourceTree = "<group>"; };
+		CCB7ECC52453D71300007BCE /* XModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XModel.h; sourceTree = "<group>"; };
+		CCB7ECC62453D71300007BCE /* XModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XModel.m; sourceTree = "<group>"; };
+		E244D907542C12BB2329A63E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E4422AF95F845A46E5339137 /* XModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XModel.podspec; path = ../XModel.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				CCB7ECC52453D71300007BCE /* XModel.h */,
+				CCB7ECC62453D71300007BCE /* XModel.m */,
 			);
 			name = "Example for XModel";
 			path = XModel;
@@ -225,11 +230,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "XModel" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -271,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB7ECC72453D71300007BCE /* XModel.m in Sources */,
 				6003F59E195388D20070C39A /* XAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -473,7 +480,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "XModel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
